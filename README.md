@@ -6,7 +6,7 @@ The WeatherPy file is utilising the OpenWeatherMap API to visualise the weather 
 - Cloudiness (%) vs. Latitude
 - Wind Speed (mph) vs. Latitude
 
-The second part of the code devides the cities into Northern and Southern Hemisphere based on their latitudes as well as creates seperate plots and linear regressions on each relationship.
+The second part of the code divides the cities into Northern and Southern Hemisphere based on their latitudes as well as creates seperate plots and linear regressions on each relationship.
 
 
 The VacationPy file uses the data retrieved in the WeatherPy code and the Google Places API to create a heat map that displays the humidity for every city. The script then narrows the data based on the preferred weather conditions (temp. between 70 and 80 degrees, wind speed less than 10mph and 0% cloudiness). Then using Google Places API the code finds the first hotel within 5000 m from the desired cities and plots hotels on top of the previously created heatmap.
