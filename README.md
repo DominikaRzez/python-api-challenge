@@ -1,10 +1,11 @@
-The repository contains a code analysing the weather of the randomly selected ~500 cities and script enabling to find the first hotel within 5000 meters from selected locations.
+The repository contains the code analysing the weather of the randomly selected ~500 cities and script enabling to find the first hotel within 5000 meters from selected locations.
 
 The WeatherPy file is utilising the OpenWeatherMap API to visualise the weather of 500+ cities and saves a CSV of all retrieved data. The plots included in the script showcase the following relationships:
 - Temperature (F) vs. Latitude
 - Humidity (%) vs. Latitude
 - Cloudiness (%) vs. Latitude
 - Wind Speed (mph) vs. Latitude
+
 The second part of the code devides the cities into Northern and Southern Hemisphere based on their latitudes and creates seperate plots and linear regression on each relationship.
 
 
